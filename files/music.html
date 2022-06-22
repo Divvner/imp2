@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Flyte Music</title>
+
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<link rel="stylesheet" href="../loader/loader.css">
+	<link rel="stylesheet" href="music-media.css">
+
+</head>
+
+<body>
+
+	<!-- include JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+		</script>
+
+	<section class="menu">
+		<div class="menu-nav">
+			<div class="navbar">
+				<a href="../index.html" class="a">Главная</a>
+				<a href="music.html" class="a">Music</a>
+				<a href="#" class="a">Авторы</a>
+				<a href="#" class="a">Labels</a>
+				<a href="#" class="menu-link" style="font-style: italic;"><span style="color: #29d93b;">Flyte</span></a>
+			</div>
+		</div>
+	</section>
+
+	<main class="main">
+		<div class="main-block">
+			<div class="main-block__el">
+				<img src="../circles/indie-dance.jpg" alt="Indie Dance" id="filter">
+				<div class="main-block__ellipse">
+					<img src="../circles/trap.jpg" alt="trap">
+					<img src="../circles/electro.jpg" alt="electro">
+					<img src="../circles/dubstep.jpg" alt="dubstep">
+					<img src="../circles/mel-dubstep.jpg" alt="mel-dubstep">
+					<img src="../circles/hybrid-trap.jpg" alt="hybrid-trap">
+					<img src="../circles/electronic.jpg" alt="electronic">
+					<img src="../circles/future-bass.jpg" alt="future-bass">
+					<span>+</span>
+				</div>
+			</div>
+			<div class="main-block__title">
+				<p>Выбери свой жанр!</p>
+			</div>
+			<div class="main-block__text">
+				<p><span style="color: lime; font-style: italic;">Flyte </span> предлагает 11 жанров музыки<span style="color: lime;">!</span></p>
+			</div>
+			<div class="main-block__weak">
+				<p>Музыка недели<span style="color: rgb(241, 33, 137);">:</span></p>
+			</div>
+			<div class="main-block-weak__music">
+				<div>
+					<audio src="../media/weak-music/weak-flutter.mp3" loop onplay="clickPause([0])" class="audio_1 cont"></audio>
+					<img src="../images/sound.gif" class="soundbutton_second">
+				</div>
+			</div>
+			<div class="main-block-weak__music">
+				<div>
+					<audio src="../media/weak-music/weak-army.mp3" loop onplay="clickPause([1])" class="audio_2 cont"></audio>
+					<img src="../images/sound.gif" class="soundbutton">
+				</div>
+			</div>	
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="main-block__weak_1">
+			<p>Музыка недели<span style="color: rgb(241, 33, 137);">:</span></p>
+		</div>
+		<div class="main-block-weak__music_1 margin-right">
+			<div>
+				<audio src="../media/weak-music/weak-flutter.mp3" loop onplay="clickPause([2])" class="audio_3 cont"></audio>
+				<img src="../images/sound.gif" class="soundbutton_fird">
+			</div>
+		</div>
+		<div class="main-block-weak__music_1 margin-left">
+			<div>
+				<audio src="../media/weak-music/weak-army.mp3" loop onplay="clickPause([3])" class="audio_4 cont"></audio>
+				<img src="../images/sound.gif" class="soundbutton_fiveth">
+			</div>
+		</div>
+	</footer>
+
+	<section class="tables">
+		<div class="cards-list">
+			<div class="card card_1">
+			 	<div class="card_image">
+					<img src="../circles/indie-dance.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Indie Dance</p>
+				</div>
+			</div>	
+			<div class="card card_2">
+			 	<div class="card_image">
+					<img src="../circles/drumstep.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Drumstep</p>
+				</div>
+			</div>
+			<div class="card card_3">
+			 	<div class="card_image">
+					<img src="../circles/drum&bass.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Drum & Bass</p>
+				</div>
+			</div>
+			<div class="card card_4">
+			 	<div class="card_image">
+					<img src="../circles/electro.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Electro</p>
+				</div>
+			</div>
+			<div class="card card_5">
+			 	<div class="card_image">
+					<img src="../circles/trap.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Trap</p>
+				</div>
+			</div>
+			<div class="card card_6">
+			 	<div class="card_image">
+					<img src="../circles/glitch-hop.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Glitch Hop</p>
+				</div>
+			</div>
+			<div class="card card_7">
+			 	<div class="card_image">
+					<img src="../circles/dubstep.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Dubstep</p>
+				</div>
+			</div>
+			<div class="card card_8">
+			 	<div class="card_image">
+					<img src="../circles/mel-dubstep.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Melodic Dubstep</p>
+				</div>
+			</div>
+			<div class="card card_9">
+			 	<div class="card_image">
+					<img src="../circles/future-bass.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Future Bass</p>
+				</div>
+			</div>
+			<div class="card card_10">
+			 	<div class="card_image">
+					<img src="../circles/electronic.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Electronic</p>
+				</div>
+			</div>
+			<div class="card card_11">
+			 	<div class="card_image">
+					<img src="../circles/hybrid-trap.jpg">
+				</div>
+			  	<div class="card_title title-white">
+			   	 	<p>Future Bass</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="preloader">
+		<div id="loader">
+			<div class="loader"></div>
+			<div class="loader-author">
+				<p>© Sergei Pavlov</p>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+		// check repeat
+		let a = document.getElementsByClassName('cont');
+
+		function clickPause(b) {
+			for (i = 0; i < a.length; i++) {
+				if (!(i == b)) { a[i].pause(); a[i].currentTime = 0; };
+			}
+		}
+
+	</script>
+
+	<script src="music.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,314 @@
+@media (min-width: 1200px) {}
+
+@media (min-width: 979px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+@media (min-width: 640px) and (max-width: 768px) {
+	/* 
+	
+		main
+	
+	*/
+
+	.main-block__el img {
+		width: 325px;
+		height: 305px;
+		border-radius: 50%;
+	}
+
+	.main-block__ellipse span {
+		display: block;
+		position: relative;
+		font-family: 'Roboto';
+		font-size: 2em;
+		font-weight: 300;
+		left: -150%;
+		margin-top: 40%;
+	}
+
+	.main-block__title p {
+		color: #fff;
+		font-family: 'Montserrat';
+		font-size: 2.8em;
+		font-style: italic;
+	}
+
+	.main-block__text p {
+		color: #fff;
+		font-family: 'Raleway';
+		font-size: 1.6em;
+		letter-spacing: 0.1em;
+		font-weight: 400;
+	}
+
+		.main-block__ellipse {
+			position: absolute;
+			left: 20%;
+		}
+	
+		.main-block__ellipse img {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+		}
+	
+		.main-block__ellipse img:nth-child(1) {}
+	
+		.main-block__ellipse img:nth-child(2) {
+			margin: 0 25px;
+		}
+	
+		.main-block__ellipse img:nth-child(3) {
+			margin: 0 50px;
+		}
+	
+		.main-block__ellipse img:nth-child(4) {
+			margin: 0 75px;
+		}
+	
+		.main-block__ellipse img:nth-child(5) {
+			margin: 0 100px;
+		}
+	
+		.main-block__ellipse img:nth-child(6) {
+			margin: 0 125px;
+		}
+	
+		.main-block__ellipse img:nth-child(7) {
+			margin: 0 150px;
+		}
+	
+		.main-block__ellipse span {
+			display: block;
+			position: relative;
+			font-family: 'Roboto';
+			font-size: 1.5em;
+			font-weight: 300;
+			left: -150%;
+			margin-top: 40%;
+		}
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+	/* 
+		
+		main
+		
+	*/
+
+	.main-block__el img {
+		width: 250px;
+		height: 235px;
+		border-radius: 50%;
+	}
+
+	.main-block__ellipse {
+		position: absolute;
+		left: 10%;
+	}
+
+	.main-block__ellipse img {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	/* 
+			
+		main
+	
+	*/
+
+	/* 
+	
+		main
+	
+	*/
+
+	.main {
+		position: relative;
+		top: 7%;
+	}
+
+	.main-block {
+		background-color: #07011f;
+		width: 100%;
+		height: 430px;
+		box-shadow: 0 0 25px #1f0683;
+	}
+
+	.main-block__el {
+		position: absolute;
+		top: 30%;
+	}
+
+	.main-block__el img {
+		width: 235px;
+		height: 220px;
+		border-radius: 50%;
+	}
+
+	.main-block__ellipse {
+		position: absolute;
+		left: 20%;
+	}
+
+	.main-block__ellipse img {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+	}
+
+	.main-block__ellipse img:nth-child(1) {}
+
+	.main-block__ellipse img:nth-child(2) {
+		margin: 0 25px;
+	}
+
+	.main-block__ellipse img:nth-child(3) {
+		margin: 0 50px;
+	}
+
+	.main-block__ellipse img:nth-child(4) {
+		margin: 0 75px;
+	}
+
+	.main-block__ellipse img:nth-child(5) {
+		margin: 0 100px;
+	}
+
+	.main-block__ellipse img:nth-child(6) {
+		margin: 0 125px;
+	}
+
+	.main-block__ellipse img:nth-child(7) {
+		margin: 0 150px;
+	}
+
+	.main-block__ellipse span {
+		display: block;
+		position: relative;
+		font-family: 'Roboto';
+		font-size: 2.5em;
+		font-weight: 300;
+		left: -150%;
+		margin-top: 40%;
+	}
+
+	.main-block__title {
+		position: absolute;
+		left: 10%;
+		top: 5%;
+	}
+
+	.main-block__title p {
+		color: #fff;
+		font-family: 'Montserrat';
+		font-size: 2.9em;
+		font-style: italic;
+	}
+
+	.main-block__text {
+		position: absolute;
+		left: 10%;
+		top: 20%;
+	}
+
+	.main-block__text p {
+		color: #fff;
+		font-family: 'Raleway';
+		font-size: 1.8em;
+		letter-spacing: 0.08em;
+		font-weight: 400;
+	}
+
+	.footer {
+		
+	}
+	
+	.main-block__weak_1 {
+		position: absolute;	
+		bottom: -490%;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	.main-block__weak_1 p {
+		color: #fff;
+		font-family: 'Raleway';
+		font-size: 2em;
+		letter-spacing: 0.1em;
+		font-style: italic;
+	}
+
+	.main-block-weak__music_1 {
+		position: absolute;
+		left: 50%;
+		bottom: -500%;
+		transform: translate(-50%, 0);
+	}
+
+	.margin-right {
+		margin-left: -100px;
+	}
+
+	.margin-left {
+		margin-left: 100px;
+	}
+
+	.main-block-weak__music_1 div {
+		background: #000;
+		width: 53px;
+		height: 53px;
+		cursor: pointer;
+	}
+
+	.main-block-weak__music_1 div p {
+		color: #fff;
+		font-family: 'Montserrat';
+		font-size: 1.6em;
+	}
+
+	.main-block-weak__music_1 img {
+		width: 50px;
+	}
+
+	.cards-list {
+		margin-top: 100px;
+	}
+}
+
+/* 
+
+	extra
+
+*/
+
+@media (max-width: 480px) {
+
+	.main-block__weak,
+	.main-block-weak__music,
+	.main-block-weak__music {
+		display: none;
+	}
+
+	.footer {
+		display: block;
+	}
+}
+
+@media (min-width: 480px) {
+	.footer {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+}
